@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="progress" table="x_asrn_lcm_project_projecttasks" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>progress</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No issues</label>
+            <language>en</language>
+            <name>x_asrn_lcm_project_projecttasks</name>
+            <sequence>1</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-02-28 13:35:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8b207df1db6cdb40b182980adb9619f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-02-28 13:35:51</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>progress</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Some issues</label>
+            <language>en</language>
+            <name>x_asrn_lcm_project_projecttasks</name>
+            <sequence>2</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-02-28 13:35:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cb207df1db6cdb40b182980adb9619f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-02-28 13:35:51</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>progress</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Blocking issue</label>
+            <language>en</language>
+            <name>x_asrn_lcm_project_projecttasks</name>
+            <sequence>3</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-02-28 13:35:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0f207df1db6cdb40b182980adb9619f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-02-28 13:35:51</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>progress</element>
+            <name>x_asrn_lcm_project_projecttasks</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-02-28 13:35:51</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>03207df1db6cdb40b182980adb9619f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>progress</sys_name>
+            <sys_package display_value="LCM projects" source="x_asrn_lcm_project">a837f6ecdb5cd3007ffc7e400f9619f3</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="LCM projects">a837f6ecdb5cd3007ffc7e400f9619f3</sys_scope>
+            <sys_update_name>sys_choice_x_asrn_lcm_project_projecttasks_progress</sys_update_name>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-02-28 13:35:51</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

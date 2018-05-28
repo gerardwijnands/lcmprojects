@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="task" label="LCM projects" max_length="40" name="x_asrn_lcm_project_lcm_projecten" sizeclass="4" type="collection">
+        <element label="End date" max_length="40" name="end_date" type="glide_date"/>
+    </element>
+</database>

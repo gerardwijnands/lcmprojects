@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_dictionary_override">
+    <sys_dictionary_override action="INSERT_OR_UPDATE">
+        <attributes>no_truncate=true,edge_encryption_enabled=true</attributes>
+        <attributes_override>true</attributes_override>
+        <base_table>task</base_table>
+        <calculation/>
+        <calculation_override>false</calculation_override>
+        <default_value/>
+        <default_value_override>false</default_value_override>
+        <dependent/>
+        <dependent_override>false</dependent_override>
+        <display_override>true</display_override>
+        <element>short_description</element>
+        <mandatory>false</mandatory>
+        <mandatory_override>false</mandatory_override>
+        <name>x_asrn_lcm_project_lcm_projecten</name>
+        <read_only>false</read_only>
+        <read_only_override>false</read_only_override>
+        <reference_qual/>
+        <reference_qual_override>false</reference_qual_override>
+        <sys_class_name>sys_dictionary_override</sys_class_name>
+        <sys_created_by>adm_1490</sys_created_by>
+        <sys_created_on>2018-02-12 12:25:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>38960764dbdcd3007ffc7e400f96198c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>short_description</sys_name>
+        <sys_package display_value="LCM projects" source="x_asrn_lcm_project">a837f6ecdb5cd3007ffc7e400f9619f3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="LCM projects">a837f6ecdb5cd3007ffc7e400f9619f3</sys_scope>
+        <sys_update_name>sys_dictionary_override_38960764dbdcd3007ffc7e400f96198c</sys_update_name>
+        <sys_updated_by>adm_1490</sys_updated_by>
+        <sys_updated_on>2018-02-12 12:39:10</sys_updated_on>
+    </sys_dictionary_override>
+</record_update>

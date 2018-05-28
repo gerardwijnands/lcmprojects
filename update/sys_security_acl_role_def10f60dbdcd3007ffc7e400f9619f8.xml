@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>adm_1490</sys_created_by>
+        <sys_created_on>2018-02-12 12:05:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>def10f60dbdcd3007ffc7e400f9619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_asrn_lcm_project_projecttasks.x_asrn_lcm_project.user</sys_name>
+        <sys_package display_value="LCM projects" source="x_asrn_lcm_project">a837f6ecdb5cd3007ffc7e400f9619f3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="LCM projects">a837f6ecdb5cd3007ffc7e400f9619f3</sys_scope>
+        <sys_security_acl display_value="x_asrn_lcm_project_projecttasks">5af10f60dbdcd3007ffc7e400f9619f5</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_def10f60dbdcd3007ffc7e400f9619f8</sys_update_name>
+        <sys_updated_by>adm_1490</sys_updated_by>
+        <sys_updated_on>2018-02-12 12:05:09</sys_updated_on>
+        <sys_user_role display_value="x_asrn_lcm_project.user" name="x_asrn_lcm_project.user">38373e28db9cd3007ffc7e400f96194f</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Imp Tmpl X Asrn Lcm Project Projecttasks" max_length="40" name="u_imp_tmpl_x_asrn_lcm_project_projecttasks" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Active" max_length="40" name="u_active" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Business line" max_length="40" name="u_business_line" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Business service" max_length="40" name="u_business_service" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Configuration item" max_length="40" name="u_configuration_item" type="string"/>
+        <element attributes="import_attribute_name=Due date,edge_encryption_enabled=true" label="Due date" max_length="40" name="u_due_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="End date" max_length="40" name="u_end_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Progress" max_length="40" name="u_progress" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Project" max_length="40" name="u_project" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Related change" max_length="40" name="u_related_change" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Section" max_length="40" name="u_section" type="string"/>
+        <element attributes="import_attribute_name=Short description,edge_encryption_enabled=true" label="Short description" max_length="160" name="u_short_description" type="string"/>
+    </element>
+</database>

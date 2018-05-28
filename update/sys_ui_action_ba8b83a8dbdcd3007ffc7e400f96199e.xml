@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>Create change</action_name>
+        <active>true</active>
+        <client>false</client>
+        <comments/>
+        <condition>gs.hasRole("itil") &amp;&amp; current.related_change.nil() &amp;&amp; !current.business_service.nil() &amp;&amp; !current.cmdb_ci.nil()</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_style/>
+        <hint/>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Create change</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[var change = new GlideRecord("change_request");
+change.short_description = current.short_description;
+change.description = current.description;
+change.u_business_service=current.business_service;
+change.cmdb_ci=current.cmdb_ci;
+
+var ag=new GlideRecord('cmdb_ci_service');
+ag.get(current.business_service);
+change.assignment_group = ag.support_group;
+
+var sysID = change.insert();
+
+current.related_change = sysID;
+var mySysID = current.update();
+
+gs.addInfoMessage("Change " + change.number + " created");
+action.setRedirectURL(change);
+action.setReturnURL(current);
+]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>adm_1490</sys_created_by>
+        <sys_created_on>2018-02-12 12:48:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ba8b83a8dbdcd3007ffc7e400f96199e</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Create change</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="LCM projects" source="x_asrn_lcm_project">a837f6ecdb5cd3007ffc7e400f9619f3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="LCM projects">a837f6ecdb5cd3007ffc7e400f9619f3</sys_scope>
+        <sys_update_name>sys_ui_action_ba8b83a8dbdcd3007ffc7e400f96199e</sys_update_name>
+        <sys_updated_by>adm_1490</sys_updated_by>
+        <sys_updated_on>2018-02-12 12:57:59</sys_updated_on>
+        <table>x_asrn_lcm_project_projecttasks</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

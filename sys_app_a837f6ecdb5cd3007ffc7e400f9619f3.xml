@@ -23,14 +23,14 @@
         <sys_created_by>adm_0685</sys_created_by>
         <sys_created_on>2018-02-28 13:35:11</sys_created_on>
         <sys_id>a837f6ecdb5cd3007ffc7e400f9619f3</sys_id>
-        <sys_mod_count>21</sys_mod_count>
-        <sys_updated_by>guest</sys_updated_by>
-        <sys_updated_on>2018-05-29 05:19:39</sys_updated_on>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_updated_by>adm_1490</sys_updated_by>
+        <sys_updated_on>2019-02-12 08:15:16</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role/>
         <vendor/>
         <vendor_prefix/>
-        <version>1.2.7</version>
+        <version>1.2.8</version>
     </sys_app>
 </record_update>
